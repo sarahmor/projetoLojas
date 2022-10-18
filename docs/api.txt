@@ -1,0 +1,24 @@
+O que são serviços?
+- uma infraestrutur de integração entre sistemas
+
+Existem vários tipos de serviços:
+- Web Service (SOAP) --> telefone? tem que estabelecer conexão e ela fica ativa por um tempo (conexão sincrona)
+- RESTfull (REST)    --> mensagem? falar com mais de uma pessoa ao mesmo temo (conexão assincrona)
+
+
+API
+4 métodos principais:
+Banco de Dados                Significa     Serviços
+C - Create                    Incluir       Post
+R -  Read/ Reach/ Research    Consultar     Get
+U - Update                    Alterar       Put
+D - Delete                    Excluir       Delete
+
+Testes de API 
+Podem ser realizados de 4 formas:
+- Requisição bruta, direto pelo framework de desenvolvimento
+- Requisição pela própria documentação dinâmica (.asmx/ swagger)
+- Requisição através d euma ferramenta configurável
+    Exemplos: Postmsn e SoapUI
+- Requisição via programação
+    Exemplos: Cypress, Mocha + Chai, SuperTest, REST-assured, RESTshard
