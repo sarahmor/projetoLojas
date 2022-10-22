@@ -58,17 +58,7 @@ describe("Petstore Swagger - User", () => {
             });
     });
 
-    // DELETAR USUARIO
-    /*it("DELETE User", () => {
-        return request
-            .delete("/user/" + username)
-            .then((resposta) => {
-                assert.equal(resposta.statusCode, 200);
 
-
-            });
-    });
-    */
 
     //Login com a extração do token
     it("Login com extração do token", () => {
@@ -85,5 +75,16 @@ describe("Petstore Swagger - User", () => {
             });
     });
 
+        // DELETAR USUARIO
+    /*it("DELETE User", () => {
+        return request
+            .delete("/user/" + username)
+            .then((resposta) => {
+                assert.equal(resposta.statusCode, 200);
+
+
+            });
+    });
+    */
 
 });
