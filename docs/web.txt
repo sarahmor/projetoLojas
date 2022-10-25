@@ -1,0 +1,11 @@
+Script de automação --> eu programei
+                    --> gravei e exportei ( Se IDE)
+Selenium WebDriver (Por programação)
+    --> Precisa de WebDriver
+        -Cada versão de navegador pode precisa de um driver expecifico
+        - Há 3 formas de organizar isso:
+                1° - Realizar o download do arquivo do driver no fornecedor e adicionar ao projeto
+fizemos essa    2° - Realizar o download do drive no fornecedor, mas adicionar em uma pasta raiz na maquina 
+                     e apontar para essa pasta nas Variaveis de Ambiente.
+                3° - Utiliza o pacote WebDriverManager(pacote) e depois diz qual navegador você quer
+
