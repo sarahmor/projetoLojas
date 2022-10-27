@@ -22,9 +22,9 @@ describe(" Resgistro da Blaze ", () => {
 
         await driver.findElement(By.id("name")).sendKeys("Sarah");
         await driver.findElement(By.id("company")).sendKeys("estudante");
-        await driver.findElement(By.id("email")).senKeys("sarah.carvalho__@hotmail.com");
+        await driver.findElement(By.id("email")).sendKeys("sarah.carvalho__@hotmail.com");
         await driver.findElement(By.id("password")).sendKeys("123456");
         await driver.findElement(By.id("password-confirm")).sendKeys("123456")
-        await driver.finElement(By.css(".btn-primary")).click();
+        await driver.findElement(By.css(".btn-primary")).click();
     })
 })
