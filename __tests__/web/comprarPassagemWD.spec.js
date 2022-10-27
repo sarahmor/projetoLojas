@@ -2,7 +2,7 @@
 //bibliotecas
 
 const { Builder, By} = require("selenium-webdriver");
-const { assert } = require("assert");
+const  assert  = require("chai").assert
 const chromedriver = require("chromedriver")
 
 
@@ -26,7 +26,7 @@ describe("Comprar Passagem via programação", () => {
     
     })
     // testar
-    it("Comprar Passagem WD", async function() {
+    it("Comprar Passagem WD", async () => {
 
         await driver.get("https://blazedemo.com/") // zbrir o site no chrome, sendo controlado pelo selenium
         await driver.findElement(By.name("fromPort")).click() //Clica no combo origem, mas poderia fazer sem clicar
@@ -45,9 +45,9 @@ describe("Comprar Passagem via programação", () => {
         await driver.findElement(By.css(".btn-primary")).click()
         //valida
         //validar se foi para a página de reserva
-        driver.sleep(30000)
+        driver.sleep(5000)
         //assert.equal(driver.getTitle(), "BlazeDemo - reserve")
-        assert.equal( driver.getTitle(), "BlazeDemo - reserve")
+        assert.equal( await driver.getTitle(), "BlazeDemo - reserve")
     })
 
     

@@ -1,0 +1,18 @@
+Page Objects = Objetos de páginas
+
+É uma forma de organização da automação com o objetivo de projetos de larga escala e que vão necessitar 
+esforço por longos periodos (anos)
+
+1 - Mapeamento dos elementos do site
+    É realizado por página
+     - elementos  
+     - ações possiveis com os elementos da páginas
+     Para cada página é criado um arquivo / classe
+
+2 - Criar um arquivo com os fluxos de atividades
+    - cobrir vários cenários / situação
+    - utilizar os mapeamentos e ações pré-construídos
+
+Moda  -->  Viés
+        ---> Bom para escalar
+        ---> Over delivery (trabalho sozinho)
